@@ -13,7 +13,7 @@ docker kill $containerId
 
 # build barebones httpd rust server docker container
 git clone https://github.com/lithium/rust-book-exercises.git
-docker build -t ch20httpd:latest rust-book-exercises/ch20httpd
+#docker build -t ch20httpd:latest rust-book-exercises/ch20httpd
 
 
 # build final docker

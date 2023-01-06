@@ -1,0 +1,13 @@
+# flyctl launch added from .gitignore
+**/django-resume-2022
+
+# flyctl launch added from django-resume-2022/.gitignore
+django-resume-2022/**/env-*
+django-resume-2022/**/venv
+django-resume-2022/**/.idea
+django-resume-2022/**/staticfiles
+django-resume-2022/**/__pycache__
+django-resume-2022/**/*.sqlite3
+django-resume-2022/**/*.pyc
+
+fly.toml
